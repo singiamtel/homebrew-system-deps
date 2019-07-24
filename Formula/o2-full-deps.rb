@@ -33,6 +33,6 @@ class O2FullDeps < Formula
   depends_on "zeromq"
 
   def install
-    system "true"
+    system "touch", "#{prefix}/empty"
   end
 end
