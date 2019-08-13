@@ -1,7 +1,7 @@
 class AliceAurora < Formula
   desc "ALICE O2 System Dependencies via Homebrew"
   homepage "http://alisw.github.io/infrastructure-aurora"
-  url "https://github.com/alisw/aurora/archive/0.16.0-alice2.tar.gz"
+  url "https://github.com/alisw/aurora/archive/0.16.0-alice3.tar.gz"
   sha256 "f1309f8fae38e44d2340bd26d312d92bd2abe54b2e57837015fbbd9aebd9b71a"
   version "0.16.0"
 
