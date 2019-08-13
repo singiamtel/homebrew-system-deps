@@ -2,8 +2,8 @@ class AliceAurora < Formula
   desc "ALICE O2 System Dependencies via Homebrew"
   homepage "http://alisw.github.io/infrastructure-aurora"
   url "https://github.com/alisw/aurora/archive/0.16.0-alice3.tar.gz"
-  sha256 "f1309f8fae38e44d2340bd26d312d92bd2abe54b2e57837015fbbd9aebd9b71a"
-  version "0.16.0"
+  sha256 "256c2b5fc0e3885599624f39793731f93162021c21c1487c8a29ef59b4005b18"
+  version "0.16.0-alice3"
 
   def install
     # No pants yet for Mojave, so we force High Sierra binaries there
