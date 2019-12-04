@@ -30,6 +30,7 @@ class O2FullDeps < Formula
   depends_on "readline"
   depends_on "xz"
   depends_on "zeromq"
+  depends_on "libomp"
 
   def install
     system "touch", "#{prefix}/empty"
