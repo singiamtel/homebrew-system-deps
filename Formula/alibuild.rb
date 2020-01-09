@@ -6,6 +6,7 @@ class Alibuild < Formula
   url "https://github.com/alisw/alibuild/archive/1.5.5.tar.gz"
   sha256 "39f199e907c68ee1dce01cd6949659d560543ee77e1add673a10997c2bf02f5f"
   version "1.5.5"
+  depends_on "s3cmd"
 
   resource "alibuild" do
     url "https://files.pythonhosted.org/packages/98/92/2a836f2f26374857253217ee9a808085c7eda6ff8b6ad11945747d73f757/alibuild-1.5.5.tar.gz"
