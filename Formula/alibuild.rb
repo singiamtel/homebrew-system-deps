@@ -8,6 +8,7 @@ class Alibuild < Formula
   version "1.5.5"
   depends_on "s3cmd"
   depends_on "pigz"
+  depends_on "modules"
 
   resource "alibuild" do
     url "https://files.pythonhosted.org/packages/98/92/2a836f2f26374857253217ee9a808085c7eda6ff8b6ad11945747d73f757/alibuild-1.5.5.tar.gz"
