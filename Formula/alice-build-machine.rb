@@ -1,4 +1,4 @@
-class O2FullDeps < Formula
+class AliceBuildMachine < Formula
   desc "ALICE O2 Build Machine Dependencies via Homebrew"
   homepage "https://alisw.github.io"
   url "file:///dev/null"
