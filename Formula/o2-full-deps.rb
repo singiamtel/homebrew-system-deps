@@ -34,6 +34,7 @@ class O2FullDeps < Formula
   depends_on "libomp"
   depends_on "freetype"
   depends_on "pigz"
+  depends_on "utf8proc"
 
   def install
     system "touch", "#{prefix}/empty"
