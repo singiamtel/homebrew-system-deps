@@ -3,21 +3,21 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://github.com/alisw/alibuild/archive/v1.6.2.tar.gz"
-  sha256 "bb75079be1f5b9791a4a552245e8132c0072cfebd6c52692278d1832ecb95360"
-  version "1.6.2"
+  url "https://github.com/alisw/alibuild/archive/v1.6.4.tar.gz"
+  sha256 "d3301120f0454937f3c718504314633ca76b5512ccc2a806e5abdcb355a2bfa6"
+  version "1.6.4"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
 
   resource "alibuild" do
-    url "https://files.pythonhosted.org/packages/c0/bc/60dc967d40f1f5a5603f485b4db36cb759cf2959d865efc6571f0590da2d/alibuild-1.6.2.tar.gz"
-    sha256 "8b264f870c2c29b42c57fb4eff3f1642eb8e553aac4ddd675fb29b9da776a51c"
+    url "https://files.pythonhosted.org/packages/fb/2f/284171b79d6274bec0684fb3295259a30b642a04f85dad2aac5f0ea6f65e/alibuild-1.6.4.tar.gz"
+    sha256 "7693fd8a6a59f7a31852473fea762a2e106bbc068a0427c6fea213e941815cd3"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/40/a7/ded59fa294b85ca206082306bba75469a38ea1c7d44ea7e1d64f5443d67a/certifi-2020.6.20.tar.gz"
-    sha256 "5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3"
+    url "https://files.pythonhosted.org/packages/e6/de/879cf857ae6f890dfa23c3d6239814c5471936b618c8fb0c8732ad5da885/certifi-2020.11.8.tar.gz"
+    sha256 "f05def092c44fbf25834a51509ef6e631dc19765ab8a57b4e7ab85531f0a9cf4"
   end
 
   resource "chardet" do
@@ -46,8 +46,8 @@ class Alibuild < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
-    sha256 "91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a"
+    url "https://files.pythonhosted.org/packages/76/d9/bbbafc76b18da706451fa91bc2ebe21c0daf8868ef3c30b869ac7cb7f01d/urllib3-1.25.11.tar.gz"
+    sha256 "8d7eaa5a82a1cac232164990f04874c594c9453ec55eef02eab885aa02fc17a2"
   end
 
   def install
