@@ -3,16 +3,16 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://github.com/alisw/alibuild/archive/v1.8.2.tar.gz"
-  sha256 "9e053de1d6cdfa153d008baf9b4da2623d2950fc68222783788ce5c9c089349b"
-  version "1.8.2"
+  url "https://github.com/alisw/alibuild/archive/v1.8.3.rc1.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  version "1.8.3.rc1"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
 
   resource "alibuild" do
-    url "https://files.pythonhosted.org/packages/ec/d6/d4a1e713bf75bba55d73babda70afbedd5490a3cc8e238c99a1d0a885293/alibuild-1.8.2.tar.gz"
-    sha256 "e47c1dcdd169ba4e022e5025ebbc827e37be9da5d04f4ad448b5a5d4c4e4b914"
+    url "https://files.pythonhosted.org/packages/89/63/1d7cce45bd918a05d7c7352c1dcaa8304dbb705d64ad0e678e6031b2d232/alibuild-1.8.3rc1.tar.gz"
+    sha256 "4b7d4f30ddd2455d98f133140850dfc2cdec937e9cf91fcda69835763bf59cbb"
   end
 
   resource "certifi" do
