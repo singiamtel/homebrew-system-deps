@@ -3,16 +3,16 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://github.com/alisw/alibuild/archive/v1.8.2.tar.gz"
-  sha256 "9e053de1d6cdfa153d008baf9b4da2623d2950fc68222783788ce5c9c089349b"
-  version "1.8.4"
+  url "https://github.com/alisw/alibuild/archive/v1.8.6.tar.gz"
+  sha256 "c63cd5655fafb9397ba112940b920d428e1a374379727a56ca8612c8a89e03c1"
+  version "1.8.6"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
 
   resource "alibuild" do
-    url "https://files.pythonhosted.org/packages/df/e1/d03de445c1a8241fb73db14014ffc2bf7cd9aa0def5eec7513ee470c70de/alibuild-1.8.4.tar.gz"
-    sha256 "84541f3884adb72b1e01ca0d3244a195e825b966dc34e102f0227d816cce711c"
+    url "https://files.pythonhosted.org/packages/26/a1/59dbb12498e75a86c663e48a5a3a1c5eb811b0e57ce1816397d8fdfbcbf6/alibuild-1.8.6.tar.gz"
+    sha256 "452b498e66fd411758aacb0624304044c07adea2a5336c8dd8fec8f8db8ed13e"
   end
 
   resource "certifi" do
@@ -46,8 +46,8 @@ class Alibuild < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/94/40/c396b5b212533716949a4d295f91a4c100d51ba95ea9e2d96b6b0517e5a5/urllib3-1.26.5.tar.gz"
-    sha256 "a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098"
+    url "https://files.pythonhosted.org/packages/4f/5a/597ef5911cb8919efe4d86206aa8b2658616d676a7088f0825ca08bd7cb8/urllib3-1.26.6.tar.gz"
+    sha256 "f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"
   end
   
   def install
