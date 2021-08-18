@@ -9,7 +9,9 @@ Short of it:
 ```
 python3 -m venv alibuild-homebrew
 source alibuild-homebrew/bin/activate
+rehash # ZSH 
 pip3 install alibuild homebrew-pypi-poet
+rehash # ZSH
 poet alibuild | pbcopy
 ```
 
