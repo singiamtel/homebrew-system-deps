@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/7b/e1/86d54c1fa972e647d9c806782600c279a828113b7e981bf18a4f45ba27ec/alibuild-1.9.4.tar.gz"
-  sha256 "f17fa7a4bd432c12f50aa2ae23bfdedd1f7d0772f7af77b4d9b37547b36183d4"
-  version "1.9.4"
+  url "https://files.pythonhosted.org/packages/a2/3b/440599daac268456df01485db33558c24d089d420d0a0ec340098adffa54/alibuild-1.9.6.tar.gz"
+  sha256 "fc3372e91244634a3c30d5e4a4d7c2aa46f8c795a6056a32a76775708d535869"
+  version "1.9.6"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/aa/ee/eea297831c8b3d8e739ed1187a0d20eb79adba02577d79a0ddbad4d80f10/boto3-1.20.3.tar.gz"
-    sha256 "67059fd703a74c7c68ccb2afdc8de741b7635f2949a03b19df521c50adc5581d"
+    url "https://files.pythonhosted.org/packages/7d/3f/b1fc0960763f91e5a864d1f6d7db18fa7b103e57592e4dd0196ae6d06b53/boto3-1.20.18.tar.gz"
+    sha256 "e4d0af77eb53e69adf2c77296c6cb408d8b168088905446d718bcfdab633d274"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/22/2c/fa648ca481570021e62e3b783b9156dbfb70e8eb8d336374e16fb4162210/botocore-1.23.3.tar.gz"
-    sha256 "8938d464c94e5f02ea6446722fc8024b45283fe3c465283ac7132f2cab9d1678"
+    url "https://files.pythonhosted.org/packages/bf/07/3aed5b4904bc78588ce4602e0718f7cdea53640648c5e675821c1dd0b3ac/botocore-1.23.18.tar.gz"
+    sha256 "1bf5134cfeca3188bdd96584efc1de71c24f27b8cb711a28a1a331d8d7fef2aa"
   end
 
   resource "certifi" do
@@ -27,8 +27,8 @@ class Alibuild < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/9f/c5/334c019f92c26e59637bb42bd14a190428874b2b2de75a355da394cf16c1/charset-normalizer-2.0.7.tar.gz"
-    sha256 "e019de665e2bcf9c2b64e2e5aa025fa991da8720daa3c1138cadd2fd1856aed0"
+    url "https://files.pythonhosted.org/packages/2f/39/5d8ff929409113e9ff402e405a7c7880ab1fa6f118a4ab72443976a01711/charset-normalizer-2.0.8.tar.gz"
+    sha256 "735e240d9a8506778cd7a453d97e817e536bb1fc29f4f6961ce297b9c7a917b0"
   end
 
   resource "distro" do
