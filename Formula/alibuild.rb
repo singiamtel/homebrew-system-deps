@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/ff/58/8010840c8d15ff7bdc39e951ef66ca03c6188166e8e2992c6932ecf7964d/alibuild-1.11.0.tar.gz"
-  sha256 "7fdc3731360f0617c34f9f4568338c15fcfb7f515913adc72778790bae04a5e3"
-  version "1.11.0"
+  url "https://files.pythonhosted.org/packages/df/04/f75a2edc3a6b73c14e66f73721510c60dca8f65bc0d06df398a2113d0525/alibuild-1.11.1.tar.gz"
+  sha256 "2e9e2a38bbc848d0684ae2a1063ec4eb208b1446d083595a4e81ad025e971023"
+  version "1.11.1"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/2d/4c/4552828ce71d76cd7ef9bcc7ed807fd67ae7a60941d3b671e64688ff1b46/boto3-1.21.32.tar.gz"
-    sha256 "05f4438607e560624caadb073c6c63181eda9bf74f8a9e4581e7b43d641cc683"
+    url "https://files.pythonhosted.org/packages/65/48/70647fa8fbdde553716ce0999e0397cdd2eeb9613ee150d5fdb82b1291dd/boto3-1.21.34.tar.gz"
+    sha256 "6cbc3aae70af5f35869d7b2f114cc953edf925231febf892d609682b2ba3f9f0"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/a8/2f/d2635e04e2b8b204872313e5208ceff168b2daf066535890b4d066cea5e8/botocore-1.24.32.tar.gz"
-    sha256 "5c2dab84f21b2a8c00bdab2150149be0ca0c8e8dd0b38712fa3562af5cfe53a2"
+    url "https://files.pythonhosted.org/packages/7a/f1/bb966c425443afea2c0f83b60f4297ec0997aa19ce9c8248f37adcdcc218/botocore-1.24.34.tar.gz"
+    sha256 "ec849864a6791c04ac6c52539dae34d53856cd32eb7e5481a3465aab7bd93555"
   end
 
   resource "certifi" do
