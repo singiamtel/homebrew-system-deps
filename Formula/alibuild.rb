@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/df/04/f75a2edc3a6b73c14e66f73721510c60dca8f65bc0d06df398a2113d0525/alibuild-1.11.1.tar.gz"
-  sha256 "2e9e2a38bbc848d0684ae2a1063ec4eb208b1446d083595a4e81ad025e971023"
-  version "1.11.1"
+  url "https://files.pythonhosted.org/packages/4d/3a/70186aa09c13920d6f0c9050b7c328db320eab9e46f1470c98a739baa5ff/alibuild-1.11.2.tar.gz"
+  sha256 "c2ad87da29d47f60a33c3e3992b08d763c36b38157b040e57ce1ea5bc55a54a8"
+  version "1.11.2"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/65/48/70647fa8fbdde553716ce0999e0397cdd2eeb9613ee150d5fdb82b1291dd/boto3-1.21.34.tar.gz"
-    sha256 "6cbc3aae70af5f35869d7b2f114cc953edf925231febf892d609682b2ba3f9f0"
+    url "https://files.pythonhosted.org/packages/14/7a/14c7a6a0c203c758ee264a0c4005beb44b6b2cd6c108c1b2b4ce7b0e1d34/boto3-1.21.42.tar.gz"
+    sha256 "bcb541175a7d190dd919a0af0e807ee6e9d26f135551e741b10d94343f2d7588"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/7a/f1/bb966c425443afea2c0f83b60f4297ec0997aa19ce9c8248f37adcdcc218/botocore-1.24.34.tar.gz"
-    sha256 "ec849864a6791c04ac6c52539dae34d53856cd32eb7e5481a3465aab7bd93555"
+    url "https://files.pythonhosted.org/packages/bf/c1/ccb78e982e38452c8db74c05aa2ac560a6267c52f702d6acb1611b447349/botocore-1.24.42.tar.gz"
+    sha256 "a2baa9484bbaee96ef312c049b8e360badcab58329e487b57567644a571b5f4a"
   end
 
   resource "certifi" do
@@ -41,9 +41,19 @@ class Alibuild < Formula
     sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
   end
 
+  resource "Jinja2" do
+    url "https://files.pythonhosted.org/packages/89/e3/b36266381ae7a1310a653bb85f4f3658c462a69634fa9b2fef76252a50ed/Jinja2-3.1.1.tar.gz"
+    sha256 "640bed4bb501cbd17194b3cace1dc2126f5b619cf068a726b98192a0fde74ae9"
+  end
+
   resource "jmespath" do
     url "https://files.pythonhosted.org/packages/06/7e/44686b986ef9ca6069db224651baaa8300b93af2a085a5b135997bf659b3/jmespath-1.0.0.tar.gz"
     sha256 "a490e280edd1f57d6de88636992d05b71e97d69a26a19f058ecf7d304474bf5e"
+  end
+
+  resource "MarkupSafe" do
+    url "https://files.pythonhosted.org/packages/1d/97/2288fe498044284f39ab8950703e88abbac2abbdf65524d576157af70556/MarkupSafe-2.1.1.tar.gz"
+    sha256 "7f91197cc9e48f989d12e4e6fbc46495c446636dfc81b9ccf50bb0ec74b91d4b"
   end
 
   resource "python-dateutil" do
