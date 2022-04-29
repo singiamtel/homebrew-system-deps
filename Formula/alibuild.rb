@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/4d/3a/70186aa09c13920d6f0c9050b7c328db320eab9e46f1470c98a739baa5ff/alibuild-1.11.2.tar.gz"
-  sha256 "c2ad87da29d47f60a33c3e3992b08d763c36b38157b040e57ce1ea5bc55a54a8"
-  version "1.11.2"
+  url "https://files.pythonhosted.org/packages/99/06/741f35142d41e1811954e4b215ffbec71e6477addfe09a4ac39ac9026e5a/alibuild-1.11.3.tar.gz"
+  sha256 "28f80860a63eccb3c28f827d3679744868fc00144365f1b30bb0243f1d80c23b"
+  version "1.11.3"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/14/7a/14c7a6a0c203c758ee264a0c4005beb44b6b2cd6c108c1b2b4ce7b0e1d34/boto3-1.21.42.tar.gz"
-    sha256 "bcb541175a7d190dd919a0af0e807ee6e9d26f135551e741b10d94343f2d7588"
+    url "https://files.pythonhosted.org/packages/f3/03/78e29e6c841ee27e3c4ed5628606b5e564279912c9a32318785e8eb37453/boto3-1.22.3.tar.gz"
+    sha256 "ef66e2e4f05f0d20aab20b1b655dc670db5c9324d33db6754b576c6867c2ffe9"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/bf/c1/ccb78e982e38452c8db74c05aa2ac560a6267c52f702d6acb1611b447349/botocore-1.24.42.tar.gz"
-    sha256 "a2baa9484bbaee96ef312c049b8e360badcab58329e487b57567644a571b5f4a"
+    url "https://files.pythonhosted.org/packages/d6/8f/b5b284826a64f2685cedfa153eba9be0c971087ebc8fd27f2cd077586613/botocore-1.25.3.tar.gz"
+    sha256 "c807e14b956b4b11d6872e84d1d947d1da5ffeedf8aac569a6401063e1752abd"
   end
 
   resource "certifi" do
@@ -42,8 +42,8 @@ class Alibuild < Formula
   end
 
   resource "Jinja2" do
-    url "https://files.pythonhosted.org/packages/89/e3/b36266381ae7a1310a653bb85f4f3658c462a69634fa9b2fef76252a50ed/Jinja2-3.1.1.tar.gz"
-    sha256 "640bed4bb501cbd17194b3cace1dc2126f5b619cf068a726b98192a0fde74ae9"
+    url "https://files.pythonhosted.org/packages/7a/ff/75c28576a1d900e87eb6335b063fab47a8ef3c8b4d88524c4bf78f670cce/Jinja2-3.1.2.tar.gz"
+    sha256 "31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"
   end
 
   resource "jmespath" do
