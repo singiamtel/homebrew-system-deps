@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/9d/93/c7701a2f10d28f9681188d0854d3b019ac28e55f3cd7e18398c5ce3c1a03/alibuild-1.11.5.tar.gz"
-  sha256 "76dfa62aedd0f6352e7711d4aadbc85e9bf78c44995410928aea11aedec70a2c"
-  version "1.11.5"
+  url "https://files.pythonhosted.org/packages/61/2d/5e5d92438b8ad6dd6f8dffbe830f9c9c5ef5ec2ceace1c32f7eed09de756/alibuild-1.11.6.tar.gz"
+  sha256 "a2b48bf01d415b6c2c3abb56d3b5b93b9dc2ecd4c9a0875636c1db929f5751e4"
+  version "1.11.6"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/f2/ab/460c69e3841c3938b931d5ae9fb77c6cb2cc7e9fb48518eaefa61e3f489e/boto3-1.24.32.tar.gz"
-    sha256 "021f2a71cbcd75c87724b7dfbf28a691f07899345047f6bc999ef646d97461df"
+    url "https://files.pythonhosted.org/packages/c5/aa/ed901f710587dcf51b16373f2801e5166ddd2fd449c15a406e2b35e0378c/boto3-1.24.43.tar.gz"
+    sha256 "edcfd95c2fd8335e2228ca7876e8e3967c506e1c6b42371fb557606ce7233f5a"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/c7/12/6173d76603ea6a1d4413ee2588e36d8aa97a59dc734311243dc9782157a9/botocore-1.27.32.tar.gz"
-    sha256 "d510a1d1956a18b6fa4b74b1b5dfbe8a7ca83f5ca4f59c43c368e143425f3725"
+    url "https://files.pythonhosted.org/packages/70/7d/770cb1662a98671f7e3247b5857243a2f82d1754b7f1e4ddbd93360941d9/botocore-1.27.43.tar.gz"
+    sha256 "ade148d0e29f633f429ea6c7ea215e173c64e8b155e574950892aa4eade969d0"
   end
 
   resource "certifi" do
@@ -82,8 +82,8 @@ class Alibuild < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/25/36/f056e5f1389004cf886bb7a8514077f24224238a7534497c014a6b9ac770/urllib3-1.26.10.tar.gz"
-    sha256 "879ba4d1e89654d9769ce13121e0f94310ea32e8d2f8cf587b77c08bbcdb30d6"
+    url "https://files.pythonhosted.org/packages/6d/d5/e8258b334c9eb8eb78e31be92ea0d5da83ddd9385dc967dd92737604d239/urllib3-1.26.11.tar.gz"
+    sha256 "ea6e8fb210b19d950fab93b60c9009226c63a28808bc8386e05301e25883ac0a"
   end
 
   def install
