@@ -3,27 +3,27 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/23/6e/08e10a96020e4622b40c77aff1df8e0b50093599398980f61d9c9ba78de7/alibuild-1.12.0.tar.gz"
-  sha256 "7724c227a25c4d211799702b319c4f812739ab81408d10fa9bfd531c44699bc9"
-  version "1.12.0"
+  url "https://files.pythonhosted.org/packages/00/bc/4949f702c0144a8619f0fdcab36e91a1f1f5f2aac3ac40141fcd2dab8bcf/alibuild-1.12.1.tar.gz"
+  sha256 "9541a2f9a36a10b9ba5983b62dbea1727319337ad215ba312959451d956d6687"
+  version "1.12.1"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/78/c9/0f6f8787b085eecfa855cadbc54bd520a8314b780f8d14e2e4d8d6a43ca0/boto3-1.24.63.tar.gz"
-    sha256 "0e6ef4b5e47b6073887961028201ecfc2024198125f20fbe5f5c00234f124543"
+    url "https://files.pythonhosted.org/packages/c9/61/dfa0a5bcfa9d0c027c790a2fa0ed242eecabd5a397fe8abd6b972f062177/boto3-1.24.90.tar.gz"
+    sha256 "83c2bc50f762ba87471fc73ec3eefd86626883b38533e98d7993259450c043db"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/f0/36/069e6376c7785db4c35b431f36d2194d708afcfa5091a5b41c3e8e53f213/botocore-1.27.63.tar.gz"
-    sha256 "b97e17c930a7f45b50f94956a4474c1cd7b828e3dcd8a84dd0e3306ca6189335"
+    url "https://files.pythonhosted.org/packages/bb/9e/36b36223817bb5014deaa1b7dd9dfde49eefe0a6d8487c30d72897ef2fd5/botocore-1.27.90.tar.gz"
+    sha256 "4ecc149d1dd36d32ba222de135c2e147731107ae444440b12714282dc00f88a4"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/cc/85/319a8a684e8ac6d87a1193090e06b6bbb302717496380e225ee10487c888/certifi-2022.6.15.tar.gz"
-    sha256 "84c85a9078b11105f04f3036a9482ae10e4621616db313fe045dd24743a0820d"
+    url "https://files.pythonhosted.org/packages/cb/a4/7de7cd59e429bd0ee6521ba58a75adaec136d32f91a761b28a11d8088d44/certifi-2022.9.24.tar.gz"
+    sha256 "0d9c601124e5a6ba9712dbc60d9c53c21e34f5f641fe83002317394311bdce14"
   end
 
   resource "charset-normalizer" do
@@ -32,13 +32,13 @@ class Alibuild < Formula
   end
 
   resource "distro" do
-    url "https://files.pythonhosted.org/packages/b5/7e/ddfbd640ac9a82e60718558a3de7d5988a7d4648385cf00318f60a8b073a/distro-1.7.0.tar.gz"
-    sha256 "151aeccf60c216402932b52e40ee477a939f8d58898927378a02abbe852c1c39"
+    url "https://files.pythonhosted.org/packages/4b/89/eaa3a3587ebf8bed93e45aa79be8c2af77d50790d15b53f6dfc85b57f398/distro-1.8.0.tar.gz"
+    sha256 "02e111d1dc6a50abb8eed6bf31c3e48ed8b0830d1ea2a1b78c61765c2513fdd8"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/62/08/e3fc7c8161090f742f504f40b1bccbfc544d4a4e09eb774bf40aafce5436/idna-3.3.tar.gz"
-    sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
+    url "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz"
+    sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
   end
 
   resource "Jinja2" do
