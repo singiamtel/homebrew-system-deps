@@ -42,7 +42,7 @@ class O2FullDeps < Formula
   depends_on "libidn2"
   depends_on "gtk-doc"
   depends_on "llvm@15"
-  conflicts_with formula: "llvm", cask: "llvm"
+  conflicts_with formula: "llvm", cask: "llvm",
     because: "'aliBuild build arrow' fails if llvm 16 is present; please uninstall 'llvm'"
   depends_on "clang-format"
 
