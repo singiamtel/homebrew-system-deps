@@ -47,8 +47,6 @@ class O2FullDeps < Formula
   depends_on "clang-format"
 
   def install
-    # Xcode 14.3 is broken with our ROOT version.
-    assert_equal MacOS::Xcode.version, Version.new("14.2")
     system "touch", "#{prefix}/empty"
   end
 end
