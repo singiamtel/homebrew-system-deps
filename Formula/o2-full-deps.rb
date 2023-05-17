@@ -3,8 +3,10 @@ class O2FullDeps < Formula
   homepage "https://alisw.github.io"
   url "file:///dev/null"
   sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  version "23.15-1"
+  version "23.20-1"
 
+  depends_on :xcode
+  depends_on "alisw/system-deps/alibuild" => :recommended
   depends_on "autoconf"
   depends_on "automake"
   depends_on "cmake"
@@ -15,7 +17,7 @@ class O2FullDeps < Formula
   depends_on "glfw"
   depends_on "gmp"
   depends_on "gsl"
-  depends_on "hub"
+  depends_on "hub" => :recommended
   depends_on "isl"
   depends_on "libmpc"
   depends_on "libpng"
@@ -35,14 +37,18 @@ class O2FullDeps < Formula
   depends_on "zeromq"
   depends_on "libomp"
   depends_on "freetype"
-  depends_on "pigz"
+  depends_on "pigz" => :recommended
   depends_on "utf8proc"
   depends_on "libidn2"
   depends_on "gtk-doc"
   depends_on "llvm@15"
+  conflicts_with "llvm",
+    because: "'aliBuild build arrow' fails if llvm 16 is present; please uninstall 'llvm'"
   depends_on "clang-format"
 
   def install
+    # Xcode 14.3 is broken with our ROOT version.
+    assert_equal MacOS::Xcode.version, Version.new("14.2")
     system "touch", "#{prefix}/empty"
   end
 end
