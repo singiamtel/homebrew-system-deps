@@ -27,7 +27,7 @@ class O2FullDeps < Formula
   depends_on "mpfr"
   depends_on "msgpack"
   depends_on "perl"
-  depends_on "openssl"
+  depends_on "openssl@3"
   depends_on "pcre"
   depends_on "pkg-config"
   depends_on "readline"
