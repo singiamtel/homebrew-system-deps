@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/81/a7/390f868a1bc7262f849855a9d5c44f181ad2c42d73ca828123952d3fbbd9/alibuild-1.14.6.tar.gz"
-  sha256 "80f1cba347d35992d904e5e745e29f9198172e80cad878e1e376b3bc8ab4278c"
-  version "1.14.6"
+  url "https://files.pythonhosted.org/packages/9d/c0/6fad808cc02eb74abea42f251fc8f7d8da73274a1d7db4364b879db9578c/alibuild-1.15.0.tar.gz"
+  sha256 "2ac55406e69555d3eb1db221631e0545a23081027792f95dd563551f3d126d91"
+  version "1.15.0"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/cd/49/2c5725ed960f8581dc63b0fc3744faffc6755bb44bab35a8f5166d968cfc/boto3-1.28.53.tar.gz"
-    sha256 "b95b0cc39f08402029c3a2bb141e1775cfa46576ebe9f9916f79bde90e27f53f"
+    url "https://files.pythonhosted.org/packages/4d/f4/be189aa0c5eeec5064882422771a8f2afa498f676c0673e4755f8c3a318a/boto3-1.28.76.tar.gz"
+    sha256 "d18688bc5d688decf3cc404430a3ac3ec317be653cdcfbc51104c01f38a66434"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/fc/3d/484f291bf8306e26f22a0a3c5c73a5489b038db33c141db4b45fc704e449/botocore-1.31.53.tar.gz"
-    sha256 "905580ea724d74f11652bab63fcec6bf0d32f1cf8b2963f7388efc0ea406b69b"
+    url "https://files.pythonhosted.org/packages/35/1c/12cbcac18268412be5fb24b6d0341b763bde24ed36d9b4a620b0063791dc/botocore-1.31.76.tar.gz"
+    sha256 "479abb5a1ee03eb00faa1ea176bc595b2f46f7494777807681a9df45ed99ea18"
   end
 
   resource "certifi" do
@@ -27,8 +27,8 @@ class Alibuild < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/2a/53/cf0a48de1bdcf6ff6e1c9a023f5f523dfe303e4024f216feac64b6eb7f67/charset-normalizer-3.2.0.tar.gz"
-    sha256 "3bb3d25a8e6c0aedd251753a79ae98a093c7e7b471faa3aa9a93a81431987ace"
+    url "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz"
+    sha256 "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
   end
 
   resource "distro" do
@@ -72,8 +72,8 @@ class Alibuild < Formula
   end
 
   resource "s3transfer" do
-    url "https://files.pythonhosted.org/packages/5a/47/d676353674e651910085e3537866f093d2b9e9699e95e89d960e78df9ecf/s3transfer-0.6.2.tar.gz"
-    sha256 "cab66d3380cca3e70939ef2255d01cd8aece6a4907a9528740f668c4b0611861"
+    url "https://files.pythonhosted.org/packages/3f/ff/5fd9375f3fe467263cff9cad9746fd4c4e1399440ea9563091c958ff90b5/s3transfer-0.7.0.tar.gz"
+    sha256 "fd3889a66f5fe17299fe75b82eae6cf722554edca744ca5d5fe308b104883d2e"
   end
 
   resource "six" do
@@ -82,8 +82,8 @@ class Alibuild < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/e2/7d/539e6f0cf9f0b95b71dd701a56dae89f768cd39fd8ce0096af3546aeb5a3/urllib3-1.26.16.tar.gz"
-    sha256 "8f135f6502756bde6b2a9b28989df5fbe87c9970cecaa69041edcce7f0589b14"
+    url "https://files.pythonhosted.org/packages/af/47/b215df9f71b4fdba1025fc05a77db2ad243fa0926755a52c5e71659f4e3c/urllib3-2.0.7.tar.gz"
+    sha256 "c97dfde1f7bd43a71c8d2a58e369e9b2bf692d1334ea9f9cae55add7d0dd0f84"
   end
 
   def install
