@@ -3,27 +3,27 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/c2/5d/9cfcc0947adb5a4d0a2ee8748a72f4bca10d46ef07ce4e5f56ff2e89a285/alibuild-1.15.2.tar.gz"
-  sha256 "95230c3f8fde8caf86073ef2863133a223dfa60df08a8c12e9273c7201a39a67"
-  version "1.15.2"
+  url "https://files.pythonhosted.org/packages/93/81/9c0db03957b5a209e699307826540aa58106ae82cff35137944c388cb728/alibuild-1.15.3.tar.gz"
+  sha256 "e3f2dc889514ae7ba7f04316109f05073984685012d0785c1c7dd203b6c394a8"
+  version "1.15.3"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/c2/b6/07b9e345cd58850bc27dd4fd5174b0a95d043a5d1de4f8499f868f2e8c30/boto3-1.28.80.tar.gz"
-    sha256 "c48c6e04e43f894881b883a28fd032f16805f6cb2771b85f0c97f3fe34db0a41"
+    url "https://files.pythonhosted.org/packages/8d/5f/4ee13ee77641c98032fcddb51456a26976f69365fdc3c6c9e699970b9e99/boto3-1.29.4.tar.gz"
+    sha256 "ca9b04fc2c75990c2be84c43b9d6edecce828960fc27e07ab29036587a1ca635"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/a8/1c/cadf06500dfcc6b1d6699e51d42c61571d937fd63fdc7bca94fa84d3c182/botocore-1.31.80.tar.gz"
-    sha256 "d43fe303530c12efca9be4ec3a9104e8a669f11d1ba9feb18f0284d751a9672c"
+    url "https://files.pythonhosted.org/packages/10/6f/e7fe287501ae0bb2732e0752dde93c4a2ad1922953be16dd912acc2c26be/botocore-1.32.4.tar.gz"
+    sha256 "6bfa75e28c9ad0321cefefa51b00ff233b16b2416f8b95229796263edba45a39"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/98/98/c2ff18671db109c9f10ed27f5ef610ae05b73bd876664139cf95bd1429aa/certifi-2023.7.22.tar.gz"
-    sha256 "539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082"
+    url "https://files.pythonhosted.org/packages/d4/91/c89518dd4fe1f3a4e3f6ab7ff23cb00ef2e8c9adf99dacc618ad5e068e28/certifi-2023.11.17.tar.gz"
+    sha256 "9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1"
   end
 
   resource "charset-normalizer" do
