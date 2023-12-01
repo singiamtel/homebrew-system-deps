@@ -9,6 +9,7 @@ class AliceBuildMachine < Formula
   depends_on "openjdk"
   depends_on "nomad"
   depends_on "consul"
+  depends_on "jq"   # for build scripts
 
   def install
     system "touch", "#{prefix}/empty"
