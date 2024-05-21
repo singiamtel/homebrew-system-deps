@@ -3,22 +3,22 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/eb/1f/1b0f657bff528e7007a4787f81efd066a0c2cc99c580b76ae39d8f5d4991/alibuild-1.17.1.tar.gz"
-  sha256 "298aaa65fdfc9bd4d9398a1ce41f4e985e7efc97dcece2daeab73efbe680322b"
-  version "1.17.1"
+  url "https://files.pythonhosted.org/packages/22/6b/1764aac1b4cc0a1a3df1fedeee9fbef5dc308b8b5f6936ed281c1694e22b/alibuild-1.17.2.tar.gz"
+  sha256 "1d584d7b4559d4963d1a338d4759c1e9928184bae48a820a337c8d6319c56498"
+  version "1.17.2"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/13/80/6131fa3135505af17a54bd3f45e81e2647bc20423274bbf533a77aa15f5c/boto3-1.34.104.tar.gz"
-    sha256 "5b37c8f4ea6f408147994a6e230c49ca755da57f5964ccea8b8fd4ff5f11759e"
+    url "https://files.pythonhosted.org/packages/cd/f5/03bfbb89af1266a10125ebbc2bb09e2d276450de0e360767e7edb0d54022/boto3-1.34.109.tar.gz"
+    sha256 "98d389562e03a46fd79fea5f988e9e6032674a0c3e9e42c06941ec588b7e1070"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/a2/a2/a16485708029217c06fc07a593d15f26e0cf0145eb36b46e9556711693ec/botocore-1.34.104.tar.gz"
-    sha256 "fe36dd3cea4160fbbe27dc1cf89cb7018234350555a26933b2977947052a346a"
+    url "https://files.pythonhosted.org/packages/7a/af/091991a0420d70e150012fdee651185c7a0a3de8d96ad626b0ec9e35b704/botocore-1.34.109.tar.gz"
+    sha256 "804821252597821f7223cb3bfca2a2a513ae0bb9a71e8e22605aff6866e13e71"
   end
 
   resource "certifi" do
@@ -67,8 +67,8 @@ class Alibuild < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
-    sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
+    url "https://files.pythonhosted.org/packages/d8/c1/f32fb7c02e7620928ef14756ff4840cae3b8ef1d62f7e596bc5413300a16/requests-2.32.1.tar.gz"
+    sha256 "eb97e87e64c79e64e5b8ac75cee9dd1f97f49e289b083ee6be96268930725685"
   end
 
   resource "s3transfer" do
