@@ -39,7 +39,7 @@ class O2FullDeps < Formula
   depends_on "utf8proc"
   depends_on "libidn2"
   depends_on "gtk-doc"
-  depends_on "llvm@15"
+  depends_on "llvm@17"
   # We need to depend on whatever version brew selects by default when we run
   # "brew --prefix python"! As of Feb 2024, this is 3.11.
   depends_on "python@3.11"
