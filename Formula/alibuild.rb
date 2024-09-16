@@ -3,27 +3,27 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/8a/c1/632f394cde38cf07914c932f469b357772078e9267d21f7593dbf1a67b8e/alibuild-1.17.10.tar.gz"
-  sha256 "3ac5762ae4ffff30d4d8b174790e8855f68f621377530448def6835f7fb7d745"
-  version "1.17.10"
+  url "https://files.pythonhosted.org/packages/6f/d1/56bd7aab2ae2080831d54d0d09524f603a70346e10f1aa5040cb57682403/alibuild-1.17.11.tar.gz"
+  sha256 "7a3d9ed03eb4f6565c7430f50bc1e9f929ca2374cbcba142d58335fe3f69ef51"
+  version "1.17.11"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
   depends_on "libyaml"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/c6/ce/be379d702f4cd84d5fc4fa7eec314ca59fa102de9641541d7b805f30eea9/boto3-1.34.145.tar.gz"
-    sha256 "ac770fb53dde1743aec56bd8e56b7ee2e2f5ad42a37825968ec4ff8428822640"
+    url "https://files.pythonhosted.org/packages/80/85/d4119201c65b56a2bcc8dc328db98cd1c769a2376aea1613a6f5e8f2a88b/boto3-1.35.19.tar.gz"
+    sha256 "9979fe674780a0b7100eae9156d74ee374cd1638a9f61c77277e3ce712f3e496"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/c5/1c/cb3d89036535de3e88ec28f0bbd8ef2b4ded45017b7cad7e3f428d52736e/botocore-1.34.145.tar.gz"
-    sha256 "edf0fb4c02186ae29b76263ac5fda18b0a085d334a310551c9984407cf1079e6"
+    url "https://files.pythonhosted.org/packages/68/e4/d0114af2ec0495c7b415b5a739a3f5b7c35a4e0b7ecfd1a7ea533606f834/botocore-1.35.19.tar.gz"
+    sha256 "42d6d8db7250cbd7899f786f9861e02cab17dc238f64d6acb976098ed9809625"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c2/02/a95f2b11e207f68bc64d7aae9666fed2e2b3f307748d5123dffb72a1bbea/certifi-2024.7.4.tar.gz"
-    sha256 "5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b"
+    url "https://files.pythonhosted.org/packages/b0/ee/9b19140fe824b367c04c5e1b369942dd754c4c5462d5674002f75c4dedc1/certifi-2024.8.30.tar.gz"
+    sha256 "bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
   end
 
   resource "charset-normalizer" do
@@ -37,8 +37,8 @@ class Alibuild < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/21/ed/f86a79a07470cb07819390452f178b3bef1d375f2ec021ecfc709fc7cf07/idna-3.7.tar.gz"
-    sha256 "028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"
+    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
+    sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
   resource "jinja2" do
@@ -62,8 +62,8 @@ class Alibuild < Formula
   end
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz"
-    sha256 "bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43"
+    url "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz"
+    sha256 "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
   end
 
   resource "requests" do
@@ -82,8 +82,8 @@ class Alibuild < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/43/6d/fa469ae21497ddc8bc93e5877702dca7cb8f911e337aca7452b5724f1bb6/urllib3-2.2.2.tar.gz"
-    sha256 "dd505485549a7a552833da5e6063639d0d177c04f23bc3864e41e5dc5f612168"
+    url "https://files.pythonhosted.org/packages/ed/63/22ba4ebfe7430b76388e7cd448d5478814d3032121827c12a2cc287e2260/urllib3-2.2.3.tar.gz"
+    sha256 "e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9"
   end
 
   def install
