@@ -3,9 +3,9 @@ class Alibuild < Formula
 
   desc "ALICE Build Tool"
   homepage "http://alisw.github.io/alibuild"
-  url "https://files.pythonhosted.org/packages/81/58/1bd8adbe1736fd151d901ce2d724fac9d1b249214c8db282a8f91bf11ac9/alibuild-1.17.17.tar.gz"
-  sha256 "0ea26a22f97cee12a9c20ce5579f06743193d50751d0091217209fa40a182615"
-  version "1.17.17"
+  url "https://files.pythonhosted.org/packages/4a/14/8b2b6e9b03d05f9cfc5d2b73a40c8616616e2dde4c3207764ac72a399fff/alibuild-1.17.18.tar.gz"
+  sha256 "efbd5708c60d26c4330fbadbffbab9ae179e20bf17d9bbcc5b02e4038d0227d6"
+  version "1.17.18"
   depends_on "s3cmd"
   depends_on "pigz"
   depends_on "modules"
